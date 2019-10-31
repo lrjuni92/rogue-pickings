@@ -1,0 +1,145 @@
+/** OTHER FONT TO USE font-family: Montserrat, sans-serif; **/
+
+/** Base Styles **/
+
+body {
+  width: 1200px;
+  font-family: "Montserrat", sans-serif;
+  background: #ffffff;
+  padding: 20px 0 0 20px;
+  color: black;
+}
+
+
+/** Grid **/
+
+.third-width {
+  width: 28%;
+  display: inline-block;
+  padding: 30px;
+}
+
+/** Header **/
+
+header {
+  text-align: left;
+  height: 350px;
+  margin: 0 auto;
+
+}
+
+header h1 {
+  font-size: 30px;
+  font-variant: small-caps;
+  float: left;
+}
+
+header h1 span {
+  color: #77a466;
+}
+
+/** Navigation Bar **/
+
+nav {
+  float: right;
+
+}
+
+nav ul {
+  text-transform: capitalize;
+}
+
+nav ul li {
+  color: #77a466;
+  font-size: 14px;
+  display: inline-block;
+  padding-right: 27px;
+}
+
+/** Image border **/
+
+#main-pic {
+  border-top: 5px solid #77a466;
+  border-bottom: 5px solid #77a466;
+}
+
+/** Welcome and About **/
+
+main{
+  margin: 0 auto;
+}
+
+#welcome{
+  height: 150px;
+  padding: 29px 0 39px 0;
+}
+
+#welcome h2{
+  color: #77a466;
+  font-size: 24px;
+  font-variant: small-caps;
+}
+#welcome p{
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/** The Specials, Reviews, and Location **/
+
+section{
+  height: 180px;
+  margin: 0 auto;
+  padding: 0 auto;
+  position: relative;
+  vertical-align: text-top;
+}
+
+#specials{
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+
+}
+
+#specials h3{
+  font-size: 16px;
+  font-variant: small-caps;
+  font-weight: bold;
+  line-height: 0px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+#specials p{
+  line-height: 20px;
+  font-size: 16px;
+}
+
+/** border around each box with color #dedbdc **/
+
+.todays-specials{
+  color: #77a466;
+}
+
+#review-border {
+  border-left: 1px solid #dedbdc;
+  border-right: 1px solid #dedbdc;
+}
+
+/** The Footer **/
+
+footer{
+  clear: both;
+  font-weight: bold;
+  font-size: 20px;
+  font-variant: small-caps;
+  height: 50px;
+  margin: 0px auto;
+  padding: 30px auto;
+  text-align: center;
+}
+
+footer span{
+  color: #77a466;
+  font-family: "Dancing Script", cursive;
+  font-variant: normal;
+}
